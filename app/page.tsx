@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { YouTubeEmbed } from "@next/third-parties/google"
 
 import {
   Card,
@@ -60,18 +61,7 @@ export default function IndexPage() {
           </section>
           <section className="grid gap-4">
             <h1 className="text-4xl font-bold text-white">SKATEBOARD</h1>
-            <div className="flex gap-4">
-              <div className="w-[200px]">
-                <Image
-                  alt="me"
-                  src="/about-me.jpg"
-                  className="object-cover"
-                  width={200}
-                  height={200}
-                />
-              </div>
-              <div>texttexttexttexttexttexttexttexttexttexttexttex</div>
-            </div>
+            <YouTubeEmbed videoid="RsYLsAX1Ixw" />
           </section>
         </div>
       </div>
