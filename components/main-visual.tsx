@@ -4,8 +4,6 @@ import GraphemeSplitter from "grapheme-splitter"
 import { useTheme } from "next-themes"
 import { TypeAnimation } from "react-type-animation"
 
-import { ThemeToggle } from "@/components/theme-toggle"
-
 export function MainVisual() {
   const { theme } = useTheme()
   const splitter = new GraphemeSplitter()
@@ -20,10 +18,7 @@ export function MainVisual() {
         }}
       />
       <div className="absolute inset-0 bg-black/50" />
-      <div className="absolute ">
-        <ThemeToggle />
-      </div>
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold sm:text-3xl md:text-4xl">
         <TypeAnimation
           splitter={(str) => splitter.splitGraphemes(str)}
           sequence={[
@@ -31,16 +26,15 @@ export function MainVisual() {
             1500,
             "I am a skateboarder 🛹",
             2500,
-            "I am a skateboarder and",
+            "I am a skateboarder 🛹 and",
             1000,
             "I am a Web Developer 💻",
           ]}
           wrapper="span"
           speed={10}
           style={{
-            fontSize: "2em",
-            fontWeight: "bold",
             display: "inline-block",
+            color: "white",
           }}
         />
       </div>
