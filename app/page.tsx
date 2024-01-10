@@ -18,12 +18,11 @@ export default function IndexPage() {
     <main className="overflow-hidden">
       <div className="relative h-screen w-screen">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="fixed -z-10 h-screen w-screen bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${
               theme === "light" ? "/top-image-light.png" : "/top-image-dark.png"
             })`,
-            backgroundAttachment: "fixed",
           }}
         />
         <div className="absolute inset-0 bg-black/50" />
@@ -31,7 +30,7 @@ export default function IndexPage() {
           <ThemeToggle />
         </div>
       </div>
-      <div className="container grid items-center px-4 py-6">
+      <div className="container grid items-center bg-background px-4 py-6">
         <div className="grid gap-12">
           <section className="grid gap-4">
             <h1 className="text-4xl font-bold text-white">ABOUT</h1>
