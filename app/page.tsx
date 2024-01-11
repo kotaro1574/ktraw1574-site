@@ -1,5 +1,3 @@
-"use client"
-
 import { About } from "@/components/about"
 import { Skateboard } from "@/components/skateboard"
 import { Work } from "@/components/work"
