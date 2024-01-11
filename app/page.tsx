@@ -16,7 +16,7 @@ export default function IndexPage() {
       <div className="container grid items-center px-4 py-6">
         <div className="grid gap-12">
           <section className="grid gap-4">
-            <h1 className="text-4xl font-bold text-white">ABOUT</h1>
+            <h1 className="text-4xl font-bold">ABOUT</h1>
             <div className="flex justify-start gap-4">
               <div className="w-[200px]">
                 <Image
@@ -32,20 +32,9 @@ export default function IndexPage() {
                 of a star-studded website.
               </div>
             </div>
-            {/* <div className="flex max-w-[980px] flex-col items-start gap-2">
-              <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-                Beautifully designed components{" "}
-                <br className="hidden sm:inline" />
-                built with Radix UI and Tailwind CSS.
-              </h1>
-              <p className="max-w-[700px] text-lg text-muted-foreground">
-                Accessible and customizable components that you can copy and
-                paste into your apps. Free. Open Source. And Next.js 13 Ready.
-              </p>
-            </div> */}
           </section>
           <section className="grid gap-4">
-            <h1 className="text-4xl font-bold text-white">WORK</h1>
+            <h1 className="text-4xl font-bold">WORK</h1>
             <div className="flex gap-4">
               <Card className="max-w-[300px] rounded-none">
                 <CardContent className="p-4">
@@ -66,7 +55,7 @@ export default function IndexPage() {
             </div>
           </section>
           <section className="grid gap-4">
-            <h1 className="text-4xl font-bold text-white">SKATEBOARD</h1>
+            <h1 className="text-4xl font-bold">SKATEBOARD</h1>
             <YouTubeEmbed videoid="RsYLsAX1Ixw" />
           </section>
         </div>
