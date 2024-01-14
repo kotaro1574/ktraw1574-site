@@ -1,10 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-
-import { Icons } from "./icons"
-import { buttonVariants } from "./ui/button"
 
 export function About() {
   return (
@@ -21,86 +15,7 @@ export function About() {
           />
         </div>
         <div>
-          <div className="grid items-center justify-between gap-4 md:flex">
-            <div className="text-2xl font-bold">Kotaro Sugita</div>
-            <div className="flex items-center space-x-1">
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div
-                  className={buttonVariants({
-                    size: "icon",
-                    variant: "ghost",
-                  })}
-                >
-                  <Icons.gitHub className="h-5 w-5" />
-                  <span className="sr-only">GitHub</span>
-                </div>
-              </Link>
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div
-                  className={buttonVariants({
-                    size: "icon",
-                    variant: "ghost",
-                  })}
-                >
-                  <Icons.twitter className="h-5 w-5" />
-                  <span className="sr-only">Twitter</span>
-                </div>
-              </Link>
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div
-                  className={buttonVariants({
-                    size: "icon",
-                    variant: "ghost",
-                  })}
-                >
-                  <Icons.instagram className="h-5 w-5" />
-                  <span className="sr-only">Instagram</span>
-                </div>
-              </Link>
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div
-                  className={buttonVariants({
-                    size: "icon",
-                    variant: "ghost",
-                  })}
-                >
-                  <Icons.tiktok className="h-5 w-5" />
-                  <span className="sr-only">TikTok</span>
-                </div>
-              </Link>
-              <Link
-                href={siteConfig.links.github}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div
-                  className={buttonVariants({
-                    size: "icon",
-                    variant: "ghost",
-                  })}
-                >
-                  <Icons.youtube className="h-5 w-5" />
-                  <span className="sr-only">Youtube</span>
-                </div>
-              </Link>
-            </div>
-          </div>
+          <div className="text-2xl font-bold">Kotaro Sugita</div>
           <p className="mt-2 text-muted-foreground">
             I am a web application front-end developer who loves skateboarding
             and the web. I am currently living in Vancouver, Canada with my wife

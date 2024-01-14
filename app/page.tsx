@@ -1,4 +1,5 @@
 import { About } from "@/components/about"
+import { LinksNav } from "@/components/links-nav"
 import { Skateboard } from "@/components/skateboard"
 import { Work } from "@/components/work"
 
@@ -9,6 +10,7 @@ export default function IndexPage() {
         <About />
         <Work />
         <Skateboard />
+        <LinksNav />
       </div>
     </div>
   )

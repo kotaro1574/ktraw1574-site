@@ -11,8 +11,10 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/ktraw1574",
+    github: "https://github.com/kotaro1574",
+    instagram: "https://www.instagram.com/ktraw1574/",
+    tiktok: "https://www.tiktok.com/@ktraw1574",
+    youtube: "https://www.youtube.com/channel/UCmPlXPBInWF3Kf1qRGtcnSQ",
   },
 }
