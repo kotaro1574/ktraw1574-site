@@ -6,8 +6,12 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardTitle,
 } from "@/components/ui/card"
+
+import { Icons } from "./icons"
+import { buttonVariants } from "./ui/button"
 
 export function Work() {
   return (
@@ -15,9 +19,14 @@ export function Work() {
       <h1 className="text-4xl font-bold">WORK</h1>
       <div className="flex flex-wrap gap-4">
         {siteConfig.works.map((work) => (
-          <Link href={work.href} target="_blank" rel="noreferrer">
-            <Card className="max-w-[300px] rounded-none">
-              <CardContent className="p-4">
+          <Card className="flex max-w-[300px] flex-col justify-between rounded-none">
+            <CardContent className="p-4">
+              <Link
+                href={work.href}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:opacity-80"
+              >
                 <Image
                   alt="me"
                   src={work.image}
@@ -25,13 +34,24 @@ export function Work() {
                   width={300}
                   height={200}
                 />
-                <CardTitle className="mt-4">{work.title}</CardTitle>
-                <CardDescription className="mt-4">
-                  {work.description}
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </Link>
+              </Link>
+              <CardTitle className="mt-4">{work.title}</CardTitle>
+              <CardDescription className="mt-4">
+                {work.description}
+              </CardDescription>
+            </CardContent>
+            <CardFooter className="p-4 pt-0">
+              <Link
+                href={work.repositoryUrl}
+                className={`${buttonVariants({ variant: "ghost" })} ml-auto`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icons.gitHub className="h-4 w-4" />
+                <span className="ml-2">repository</span>
+              </Link>
+            </CardFooter>
+          </Card>
         ))}
       </div>
     </section>

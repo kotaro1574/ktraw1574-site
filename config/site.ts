@@ -24,12 +24,14 @@ export const siteConfig = {
         "This application measures the commit time with a timer and displays it in a graph.",
       href: "https://commit-timer-kt.vercel.app",
       image: "/commit-timer.jpg",
+      repositoryUrl: "https://github.com/kotaro1574/commit-timer",
     },
     {
       title: "Shigeuchi Therapy Clinic Website",
       description: `My friend runs an acupuncture clinic in Hiroshima. You should check it out if you're interested!`,
       href: "https://www.shigeuchi.com/",
       image: "/shigeuchi.jpg",
+      repositoryUrl: "https://github.com/kotaro1574/shinkyu-site",
     },
   ],
 }
