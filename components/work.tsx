@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
 import {
@@ -14,21 +15,23 @@ export function Work() {
       <h1 className="text-4xl font-bold">WORK</h1>
       <div className="flex flex-wrap gap-4">
         {siteConfig.works.map((work) => (
-          <Card className="max-w-[300px] rounded-none">
-            <CardContent className="p-4">
-              <Image
-                alt="me"
-                src={work.image}
-                className="border object-cover"
-                width={300}
-                height={200}
-              />
-              <CardTitle className="mt-4">{work.title}</CardTitle>
-              <CardDescription className="mt-4">
-                {work.description}
-              </CardDescription>
-            </CardContent>
-          </Card>
+          <Link href={work.href} target="_blank" rel="noreferrer">
+            <Card className="max-w-[300px] rounded-none">
+              <CardContent className="p-4">
+                <Image
+                  alt="me"
+                  src={work.image}
+                  className="border object-cover"
+                  width={300}
+                  height={200}
+                />
+                <CardTitle className="mt-4">{work.title}</CardTitle>
+                <CardDescription className="mt-4">
+                  {work.description}
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </Link>
         ))}
       </div>
     </section>
