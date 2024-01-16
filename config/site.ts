@@ -17,4 +17,19 @@ export const siteConfig = {
     tiktok: "https://www.tiktok.com/@ktraw1574",
     youtube: "https://www.youtube.com/channel/UCmPlXPBInWF3Kf1qRGtcnSQ",
   },
+  works: [
+    {
+      title: "Commit Timer",
+      description:
+        "This application measures the commit time with a timer and displays it in a graph.",
+      href: "https://commit-timer-kt.vercel.app",
+      image: "/commit-timer.png",
+    },
+    {
+      title: "Shigeuchi Therapy Clinic Website",
+      description: `My friend runs an acupuncture clinic in Hiroshima. You should check it out if you're interested!`,
+      href: "https://www.shigeuchi.com/",
+      image: "/shigeuchi.png",
+    },
+  ],
 }
