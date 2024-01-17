@@ -1,5 +1,8 @@
 import Image from "next/image"
 
+import { Icons } from "./icons"
+import { buttonVariants } from "./ui/button"
+
 export function About() {
   return (
     <section className="grid gap-4">
@@ -15,7 +18,18 @@ export function About() {
           />
         </div>
         <div>
-          <div className="text-2xl font-bold">Kotaro Sugita</div>
+          <div className="flex justify-between">
+            <div className="text-2xl font-bold">Kotaro Sugita</div>
+            <div>
+              <a
+                className={buttonVariants({ variant: "ghost" })}
+                href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
+              >
+                <Icons.mail className="h-4 w-4" />
+                <span className="ml-2">Send me a note</span>
+              </a>
+            </div>
+          </div>
           <p className="mt-2 text-muted-foreground">
             I am a web application front-end developer who loves skateboarding
             and the web. I am currently living in Vancouver, Canada with my wife
