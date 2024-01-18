@@ -9,14 +9,7 @@ export function MainVisual() {
   const splitter = new GraphemeSplitter()
   return (
     <div className="relative h-screen w-screen">
-      <div
-        className="fixed -z-10 h-screen w-screen bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${
-            theme === "light" ? "/top-image-light.png" : "/top-image-dark.png"
-          })`,
-        }}
-      />
+      <div className="fixed -z-10 h-screen w-screen bg-[url('/top-image-light.png')] bg-cover bg-center bg-no-repeat dark:bg-[url('/top-image-dark.png')]" />
       <div className="absolute inset-0 bg-black/50" />
       <div className="absolute inset-0 flex items-center justify-center text-2xl font-bold sm:text-3xl md:text-4xl">
         <TypeAnimation
