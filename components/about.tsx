@@ -11,8 +11,15 @@ export function About() {
         <div className="w-[200px] shrink-0 md:w-[250px]">
           <Image
             alt="me"
-            src="/about-me.jpg"
-            className="object-cover"
+            src="/about-me-light.jpg"
+            className="object-cover dark:hidden"
+            width={250}
+            height={250}
+          />
+          <Image
+            alt="me"
+            src="/about-me-dark.jpg"
+            className="hidden object-cover dark:inline"
             width={250}
             height={250}
           />
