@@ -1,11 +1,9 @@
 "use client"
 
 import GraphemeSplitter from "grapheme-splitter"
-import { useTheme } from "next-themes"
 import { TypeAnimation } from "react-type-animation"
 
 export function MainVisual() {
-  const { theme } = useTheme()
   const splitter = new GraphemeSplitter()
   return (
     <div className="relative h-screen w-screen">
