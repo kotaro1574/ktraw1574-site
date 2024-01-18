@@ -1,6 +1,7 @@
 import {
   Instagram,
   LucideProps,
+  Mail,
   Moon,
   SunMedium,
   Twitter,
@@ -15,6 +16,7 @@ export const Icons = {
   moon: Moon,
   youtube: Youtube,
   twitter: Twitter,
+  mail: Mail,
   instagram: Instagram,
   tiktok: (props: LucideProps) => (
     <svg
