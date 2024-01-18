@@ -18,17 +18,29 @@ export function About() {
           />
         </div>
         <div>
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between">
             <div className="text-2xl font-bold">Kotaro Sugita</div>
-            <div>
-              <a
-                className={buttonVariants({ variant: "ghost" })}
-                href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
+            <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+              <div
+                className={`${buttonVariants({
+                  variant: "ghost",
+                })} hidden sm:inline-flex`}
               >
                 <Icons.mail className="h-4 w-4" />
-                <span className="ml-2">Send me a note</span>
-              </a>
-            </div>
+                <span className="ml-2 hidden sm:inline-block">
+                  Send me a note
+                </span>
+              </div>
+              <div
+                className={`${buttonVariants({
+                  size: "icon",
+                  variant: "ghost",
+                })} sm:hidden`}
+              >
+                <Icons.mail className="h-5 w-5" />
+                <span className="sr-only">Mail</span>
+              </div>
+            </a>
           </div>
           <p className="mt-2 text-muted-foreground">
             I am a web application front-end developer who loves skateboarding
