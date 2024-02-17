@@ -13,10 +13,17 @@ export const siteConfig = {
   },
   works: [
     {
+      title: "🛹 sk8 map todo",
+      description: "This is an app to manage spot sharing and todo on map.",
+      href: "https://sk8-map-todo.vercel.app/",
+      image: "/sk8-map-todo.jpg",
+      repositoryUrl: "https://github.com/kotaro1574/sk8-map-todo",
+    },
+    {
       title: "Commit Timer",
       description:
         "This application measures the commit time with a timer and displays it in a graph.",
-      href: "https://commit-timer-kt.vercel.app",
+      href: "https://commit-timer-kt.vercel.app/",
       image: "/commit-timer.jpg",
       repositoryUrl: "https://github.com/kotaro1574/commit-timer",
     },
