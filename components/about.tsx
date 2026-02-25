@@ -35,7 +35,7 @@ export function About() {
               >
                 <Icons.mail className="h-4 w-4" />
                 <span className="ml-2 hidden sm:inline-block">
-                  Send me a note
+                  メールを送る
                 </span>
               </div>
               <div
@@ -50,18 +50,11 @@ export function About() {
             </a>
           </div>
           <p className="mt-2 text-muted-foreground">
-            I am a web application front-end developer who loves skateboarding
-            and the web. I am currently living in Vancouver, Canada with my wife
-            on a working holiday visa. Here I am skateboarding and developing
-            web applications. I like to commit.
+            スケートボードとWebが好きなフロントエンドエンジニアです。現在はワーキングホリデービザで妻と一緒にカナダ・バンクーバーに住んでいます。ここでスケートボードをしながらWebアプリケーションの開発をしています。コミットすることが好きです。
             <br />
-            I started as a front-end developer in 2019. Back then, I was honing
-            my skateboarding skills every day. However, I realized that I needed
-            physical rest in honing my skateboarding skills. Always wanting to
-            be committed to something, I was inspired by my brother to start
-            programming, which I am doing now.
-            <br />I will continue to be passionate about skateboarding and the
-            web.
+            2019年にフロントエンドエンジニアとしてキャリアをスタートしました。当時は毎日スケートボードの技術を磨いていましたが、スケートボードの上達には体の休息が必要だと気づきました。常に何かに打ち込んでいたい性格で、兄の影響を受けてプログラミングを始め、今に至ります。
+            <br />
+            これからもスケートボードとWebに情熱を注ぎ続けます。
           </p>
         </div>
       </div>
