@@ -13,19 +13,20 @@ export const siteConfig = {
   },
   works: [
     {
-      title: "🛹 sk8 map todo",
-      description: "マップ上でスポット共有やTODOを管理できるアプリです。",
-      href: "https://sk8-map-todo.vercel.app/",
-      image: "/sk8-map-todo.jpg",
-      repositoryUrl: "https://github.com/kotaro1574/sk8-map-todo",
+      title: "メディネオ",
+      description:
+        "医療機関向けのWebアプリケーションです。顔認証ログインなどの機能を搭載しています。",
+      href: "https://medi-neo.com/",
+      image: "/medi-neo.png",
+      repositoryUrl: "",
     },
     {
-      title: "Commit Timer",
+      title: "Ktraw Skate Map",
       description:
-        "タイマーでコミット時間を計測し、グラフで表示するアプリケーションです。",
-      href: "https://commit-timer-kt.vercel.app/",
-      image: "/commit-timer.jpg",
-      repositoryUrl: "https://github.com/kotaro1574/commit-timer",
+        "YouTubeチャンネルで紹介しているスケボースポットをマップで探せるサイトです。",
+      href: "https://ktraw-skate-map.com/",
+      image: "/ktraw-skate-map.png",
+      repositoryUrl: "",
     },
     {
       title: "重内治療院 ウェブサイト",

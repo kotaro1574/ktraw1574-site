@@ -17,7 +17,7 @@ export function Work() {
         {siteConfig.works.map((work, i) => (
           <Card
             key={`${work.title}-${i}`}
-            className="flex max-w-[300px] flex-col justify-between rounded-none"
+            className="w-[300px] flex-col justify-between rounded-none"
           >
             <Link
               href={work.href}
@@ -26,13 +26,19 @@ export function Work() {
               className="hover:opacity-80"
             >
               <CardContent className="p-4">
-                <Image
-                  alt="me"
-                  src={work.image}
-                  className="border object-cover"
-                  width={300}
-                  height={200}
-                />
+                <div className="relative aspect-[3/2] w-full overflow-hidden border">
+                  {work.image ? (
+                    <Image
+                      alt={work.title}
+                      src={work.image}
+                      className="object-cover"
+                      fill
+                      sizes="300px"
+                    />
+                  ) : (
+                    <div className="flex h-full items-center justify-center bg-muted" />
+                  )}
+                </div>
                 <CardTitle className="mt-4">{work.title}</CardTitle>
                 <CardDescription className="mt-4">
                   {work.description}
