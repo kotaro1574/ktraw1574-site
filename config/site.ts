@@ -15,7 +15,7 @@ export const siteConfig = {
     {
       title: "メディネオ",
       description:
-        "医療機関向けのWebアプリケーションです。顔認証ログインなどの機能を搭載しています。",
+        "顔認証と分包紙の文字認証で誤薬を防ぐ服薬支援アプリです。服薬履歴も記録され、現場の業務効率化につながります。",
       href: "https://medi-neo.com/",
       image: "/medi-neo.png",
       repositoryUrl: "",
@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       title: "Ktraw Skate Map",
       description:
-        "YouTubeチャンネルで紹介しているスケボースポットをマップで探せるサイトです。",
+        "YouTubeチャンネルで紹介しているスケボースポットをマップで探せるサイトです。気になるスポットがあればぜひ動画もチェックしてみてください！",
       href: "https://ktraw-skate-map.com/",
       image: "/ktraw-skate-map.png",
       repositoryUrl: "",
