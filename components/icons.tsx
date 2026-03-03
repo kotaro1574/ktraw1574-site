@@ -18,6 +18,20 @@ export const Icons = {
   twitter: Twitter,
   mail: Mail,
   instagram: Instagram,
+  japan: (props: LucideProps) => (
+    <svg
+      viewBox="0 0 512 512"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0 0 114.6 0 256s114.6 256 256 256z"
+        fill="#F0F0F0"
+      />
+      <circle cx="256" cy="256" r="111.3" fill="#D80027" />
+    </svg>
+  ),
   tiktok: (props: LucideProps) => (
     <svg
       width="24"
