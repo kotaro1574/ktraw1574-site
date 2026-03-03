@@ -99,7 +99,7 @@ export function About() {
                 </div>
               </div>
               <div className="group rounded-xl border border-border/50 bg-card/50 p-4 text-center transition-all hover:border-primary/50 hover:bg-primary/5">
-                <div className="text-3xl font-bold text-primary">15+</div>
+                <div className="text-3xl font-bold text-primary">10+</div>
                 <div className="mt-1 text-xs text-muted-foreground">
                   Years Skating
                 </div>

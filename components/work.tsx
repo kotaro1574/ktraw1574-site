@@ -18,7 +18,11 @@ export function Work() {
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {siteConfig.works.map((work, i) => (
-          <ScrollReveal key={`${work.title}-${i}`} delay={i * 100} className="h-full">
+          <ScrollReveal
+            key={`${work.title}-${i}`}
+            delay={i * 100}
+            className="h-full"
+          >
             <Link
               href={work.href}
               target="_blank"

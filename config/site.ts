@@ -29,7 +29,7 @@ export const siteConfig = {
       repositoryUrl: "",
     },
     {
-      title: "重内治療院 ウェブサイト",
+      title: "繁内治療院 ウェブサイト",
       description:
         "友人が広島で運営している鋼灸院です。興味があればぜひ見てみてください！",
       href: "https://www.shigeuchi.com/",
