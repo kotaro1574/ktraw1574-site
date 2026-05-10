@@ -19,7 +19,7 @@ export function SectionTitle({
         <span className="gradient-text">{children}</span>
       </h2>
       {subtitle && (
-        <p className="text-muted-foreground text-sm uppercase tracking-widest">
+        <p className="text-sm uppercase tracking-widest text-muted-foreground">
           {subtitle}
         </p>
       )}

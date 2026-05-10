@@ -80,7 +80,7 @@ export function About() {
             {/* Bio */}
             <div className="space-y-4 text-muted-foreground">
               <p className="text-base leading-relaxed md:text-lg">
-                スケートボードとWebが好きなフロントエンドエンジニアです。カナダでのワーキングホリデーを終え、現在は地元広島で合同会社VIBESHIROSHIMAを立ち上げ、アプリ制作をしながらスケボーライフを送っています。
+                スケートボードとWebが好きなフロントエンドエンジニアです。現在は地元広島で合同会社VIBESHIROSHIMAを立ち上げ、アプリ制作をしながらスケボーライフを送っています。
               </p>
               <p className="text-base leading-relaxed md:text-lg">
                 2019年にフロントエンドエンジニアとしてキャリアをスタートしました。当時は毎日スケートボードの技術を磨いていましたが、スケートボードの上達には体の休息が必要だと気づきました。常に何かに打ち込んでいたい性格で、弟の影響を受けてプログラミングを始め、今に至ります。
@@ -93,13 +93,13 @@ export function About() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 pt-4">
               <div className="group rounded-xl border border-border/50 bg-card/50 p-4 text-center transition-all hover:border-primary/50 hover:bg-primary/5">
-                <div className="text-3xl font-bold text-primary">5+</div>
+                <div className="text-3xl font-bold text-primary">7</div>
                 <div className="mt-1 text-xs text-muted-foreground">
                   Years Coding
                 </div>
               </div>
               <div className="group rounded-xl border border-border/50 bg-card/50 p-4 text-center transition-all hover:border-primary/50 hover:bg-primary/5">
-                <div className="text-3xl font-bold text-primary">10+</div>
+                <div className="text-3xl font-bold text-primary">12</div>
                 <div className="mt-1 text-xs text-muted-foreground">
                   Years Skating
                 </div>

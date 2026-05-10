@@ -62,7 +62,7 @@ export function MainVisual() {
                 2000,
                 "Frontend Developer",
                 2000,
-                "Living in Vancouver",
+                "Living in Hiroshima",
                 2000,
                 "Passionate about Web & Skate",
                 2000,
@@ -80,6 +80,7 @@ export function MainVisual() {
 
         {/* Scroll indicator */}
         <button
+          type="button"
           onClick={scrollToContent}
           className="absolute bottom-8 left-1/2 flex -translate-x-1/2 cursor-pointer flex-col items-center gap-2 transition-all hover:translate-y-1"
           aria-label="Scroll to content"
@@ -89,26 +90,6 @@ export function MainVisual() {
           </span>
           <ChevronDown className="h-6 w-6 animate-bounce text-white/50" />
         </button>
-      </div>
-
-      {/* Side decorations */}
-      <div className="absolute left-8 top-1/2 hidden -translate-y-1/2 flex-col gap-2 md:flex">
-        {[...Array(3)].map((_, i) => (
-          <div
-            key={i}
-            className="h-2 w-2 rounded-full bg-white/20 transition-all hover:bg-primary hover:scale-150"
-            style={{ animationDelay: `${i * 200}ms` }}
-          />
-        ))}
-      </div>
-      <div className="absolute right-8 top-1/2 hidden -translate-y-1/2 flex-col gap-2 md:flex">
-        {[...Array(3)].map((_, i) => (
-          <div
-            key={i}
-            className="h-2 w-2 rounded-full bg-white/20 transition-all hover:bg-primary hover:scale-150"
-            style={{ animationDelay: `${i * 200}ms` }}
-          />
-        ))}
       </div>
     </div>
   )

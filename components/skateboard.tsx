@@ -21,7 +21,7 @@ export function Skateboard() {
       {/* Intro text */}
       <ScrollReveal delay={100}>
         <p className="mb-8 max-w-2xl text-muted-foreground">
-          スケートボードは私の人生の一部です。15年以上続けてきたスケートボードの映像をぜひご覧ください。
+          スケートボードは私の人生の一部です。
         </p>
       </ScrollReveal>
 

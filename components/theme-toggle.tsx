@@ -15,9 +15,7 @@ export function ThemeToggle() {
   }, [])
 
   if (!mounted) {
-    return (
-      <div className="h-10 w-10 animate-pulse rounded-full bg-muted" />
-    )
+    return <div className="h-10 w-10 animate-pulse rounded-full bg-muted" />
   }
 
   return (
@@ -29,6 +27,7 @@ export function ThemeToggle() {
         "transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10",
         "focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
       )}
+      type="button"
       aria-label="Toggle theme"
     >
       {/* Gradient background on hover */}

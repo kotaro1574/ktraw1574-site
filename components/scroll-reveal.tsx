@@ -54,7 +54,7 @@ export function ScrollReveal({
       className={cn(
         "transition-all duration-700 ease-out",
         isVisible
-          ? "opacity-100 translate-x-0 translate-y-0"
+          ? "translate-x-0 translate-y-0 opacity-100"
           : `opacity-0 ${directionClasses[direction]}`,
         className
       )}
